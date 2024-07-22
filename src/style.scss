@@ -281,23 +281,45 @@ body{
 @media screen and (max-width: 700px) {
   body{
     .section1{
+      height: 700px !important;
       .b{
         flex-direction: column-reverse !important;
         align-items: center !important;
+
+        padding-top: 20% !important;
+        padding-bottom: 20% !important;
         img{
           width: 200px !important;
         }
       }
     }
     .section2{
+      height: 500px !important;
       h1{
         font-size: 25px !important;
       }
+      .row{
+        flex-direction: column;
+
+        justify-content: space-around !important;
+        align-items: center;
+        .card{
+          margin-top: 5% ;
+        }
+      }
     }
 
-    iframe{
-      width: 380px;
-      height: 300px;
+    .section3{
+      height: 500px;
+
+      padding-top: 20%;
+      padding-bottom: 20%;
+      iframe{
+        width: 380px;
+        height: 300px;
+
+        margin-top: 20%;
+      }
     }
 
     .section4{
